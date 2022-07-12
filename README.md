@@ -47,7 +47,8 @@ The Home screen is displayed at ```/decks``` and includes the following features
 
 - When the user clicks the "Delete" button, a warning message is shown and the user can click "OK" or "Cancel" 
 - If the user clicks "OK", the deck is deleted and the deleted deck is no longer visible on the Home screen
-<img src="../img/Delete.png" />
+![alt Delete](https://github.com/nsuami/Flashcard-o-matic/blob/main/src/img/Delete.png) 
+
 
 <strong>2) Study Screen:</strong> Where users can study a deck of flashcards
 
@@ -58,7 +59,8 @@ The Study screen is displayed at ```/decks/:deckId/study``` and includes the fol
 - After the final card in the deck has been shown, a message (see the "Restart prompt" section below) is shown offering the user the opportunity to restart the deck
 If the user does not restart the deck, they should return to the home screen
 - Studying a deck with two or fewer cards should display a "Not enough cards" message (see the "Not enough cards" section below) and a button to add cards to the deck
-<img src="../img/Study.png" />
+![alt Study](https://github.com/nsuami/Flashcard-o-matic/blob/main/src/img/Study.png) 
+
 
 <strong>3) Create Deck Screen</strong>: Allows user to create a new deck
 
@@ -69,7 +71,8 @@ The Create Deck screen has the following features:
 - A form is shown with the appropriate fields for creating a new deck
 - If the user clicks "submit", the user is taken to the Deck screen
 - If the user clicks "cancel", the user is taken to the Home screen
-<img src="../img/CreatC.png" />
+![alt CreatC](https://github.com/nsuami/Flashcard-o-matic/blob/main/src/img/CreatC.png)
+
 
 <strong>4) Deck Screen:</strong> displays all of the information about a deck
 
@@ -77,12 +80,14 @@ The Deck screen has the following features:
 - There is a breadcrumb navigation bar with a link to home / followed by the name of the deck (e.g., Home/React Router)
 - The screen includes the deck name (e.g., "React Router") and deck description (e.g., "React Router is a collection of navigational components that compose declaratively in your application")
 - The screen includes "Edit", "Study", "Add Cards", and "Delete" buttons. Each button takes the user to a different destination
-<img src="../img/Deck.png" />
+![alt Deck](https://github.com/nsuami/Flashcard-o-matic/blob/main/src/img/Deck.png)
+
 
 <strong>Delete Card Prompt:</strong>
 - When the user clicks the "Delete" button associated with a card, a warning message is shown and the user can click "OK" or "Cancel"
 - If the user clicks "OK", the card is deleted
-<img src="../img/DeleteC.png" />
+![alt DeleteC](https://github.com/nsuami/Flashcard-o-matic/blob/main/src/img/DeleteC.png)
+
 
 <strong>4) Edit Deck Screen:</strong> allows the user to modify information on an existing deck
 
@@ -91,7 +96,8 @@ The Edit Deck screen has the following features:
 - It displays the same form as the Create Deck screen, except it is pre-filled with information for the existing deck
 - The user can edit and update the form
 - If the user clicks "Cancel", the user is taken to the Deck screen
-<img src="../img/EditeD.png" />
+![alt EditeD](https://github.com/nsuami/Flashcard-o-matic/blob/main/src/img/EditeD.png)
+
 
 <strong>5) Add Card Screen</strong>: allows the user to add a new card to an existing deck and includes the following features:
 - There is a breadcrumb navigation bar with a link to home /, followed by the name of the deck to which the cards are being added, and finally the text Add Card (e.g., Home/React Router/Add Card)
@@ -99,11 +105,13 @@ The Edit Deck screen has the following features:
 - A form is shown with the "front" and "back" fields for a new card where both fields use a <textarea> tag that can accommodate multiple lines of text.
 - If the user clicks "Save", a new card is created and associated with the relevant deck. Then the form is cleared and the process for adding a card is restarted
 - If the user clicks "Done", the user is taken to the Deck screen
- <img src="../img/AddC.png" />
+ ![alt AddC](https://github.com/nsuami/Flashcard-o-matic/blob/main/src/img/AddC.png)
+
   
 <strong>6) Edit Card Screen:</strong> allows the user to modify information on an existing card and has the following features:
 - There is a breadcrumb navigation bar with a link to home /, followed by the name of the deck of which the edited card is a member, and finally the text Edit Card :cardId (e.g., Home/Deck React Router/Edit Card 4)
 - It displays the same form as the Add Card screen, except it is pre-filled with information for the existing card. It can be edited and updated
 - If the user clicks on either "Save" or "Cancel", the user is taken to the Deck screen
-<img src="../img/EditeC.png" />
+ ![alt EditeC](https://github.com/nsuami/Flashcard-o-matic/blob/main/src/img/EditeC.png)
+
 
