@@ -41,7 +41,7 @@ The Home screen is displayed at ```/decks``` and includes the following features
 - Clicking the “Study” button brings the user to the Study screen
 - Clicking the “Edit” button brings the user to the Edit Deck screen
 - Clicking the “Delete” button shows a warning message before deleting the deck
-<img src="../img/Home.png" />
+<img src=".src//img/Home.png" />
 
 <strong>Delete Deck Prompt:</strong>
 
